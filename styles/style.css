@@ -447,3 +447,50 @@ body {
     gap: 16px;
 }
 /*==================================*/
+.lifeblend{
+    margin: 94px 0;
+}
+.lifeblend__container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.lifeblend__title{
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    color: #000000;
+}
+.lifeblend__cards{
+    display: flex;
+    gap: 48px;
+}
+.lifeblend__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.card__image{
+
+}
+.card__title{
+    text-align: center;
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+.card__description{
+    text-align: center;
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+/*==================================*/
