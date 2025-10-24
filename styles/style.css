@@ -164,3 +164,121 @@ body {
     border-radius: 8px;
     border: 1px solid #000000;
 }
+/*==================================*/
+.revolutionize{
+    margin-top: 80px;
+    background: #F9F8FE;
+}
+.revolutionize__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 0;
+}
+.revolutionize__content{
+    max-width: 599px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.revolutionize__text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.text__typography{
+    font-family: Poppins, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.text__title{
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    color: #000000;
+}
+.text__description{
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+.revolutionize__info{
+    display: flex;
+    gap: 24px;
+}
+.revolutionize__explore{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.explore__title{
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+.explore__subtitle{
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.revolutionize__inspire{
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.inspire__title{
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+.inspire__subtitle{
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.revolutionize__buttons{
+    display: flex;
+    gap: 16px;
+}
+.buttons__learn{
+    padding: 12px 24px;
+    font-family: Inter, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+.buttons__signUp{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: Inter, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+.buttons__signUp div{
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    rotate: 45deg;
+}
+.revolutionize__image{
+    max-width: 601px;
+    max-height: 601px;
+}
