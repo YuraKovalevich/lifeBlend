@@ -185,8 +185,8 @@ body {
 
 .revolutionize__container {
     display: flex;
-    justify-content: space-between;
     padding: 112px 0;
+    gap: 90px;
 }
 
 .revolutionize__content {
@@ -390,6 +390,59 @@ body {
 }
 
 .discover__buttons {
+    display: flex;
+    gap: 16px;
+}
+
+/*==================================*/
+.secrets {
+    padding: 112px 0;
+    background: #F9F8FE;
+}
+
+.secrets__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secrets__content {
+    max-width: 599px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.secrets__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.secrets__text {
+    font-family: Poppins, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.secrets__title {
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    color: #000000;
+}
+
+.secrets__description {
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.secrets__buttons {
     display: flex;
     gap: 16px;
 }
