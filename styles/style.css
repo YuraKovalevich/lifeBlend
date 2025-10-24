@@ -90,38 +90,46 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
 }
-.button__contact{
+
+.button__contact {
     font-family: Inter, serif;
     font-weight: 600;
     font-size: 14px;
     color: #FFFFFF;
 }
+
 /*==================================*/
-.main{
+.main {
     flex: 1 1 auto;
 }
-.picture{
+
+.picture {
     display: flex;
     margin-top: 68px;
 }
+
 .picture img {
     width: 100%;
     max-height: 595px;
     overflow: hidden;
 }
+
 /*==================================*/
-.healthy{
+.healthy {
     max-height: 295px;
     margin-top: 74px;
 }
-.healthy__container{
+
+.healthy__container {
     display: flex;
     justify-content: space-between;
 }
-.healthy__title{
+
+.healthy__title {
     max-width: 400px;
 }
-.healthy__title p{
+
+.healthy__title p {
     font-family: Montserrat, serif;
     font-weight: 700;
     font-size: 52px;
@@ -129,22 +137,25 @@ body {
     color: #000000;
 }
 
-.healthy__content{
+.healthy__content {
     max-width: 560px;
 }
-.healthy__text{
+
+.healthy__text {
     font-family: Poppins, serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: #000000;
 }
-.healthy__buttons{
+
+.healthy__buttons {
     margin-top: 24px;
     display: flex;
     gap: 16px;
 }
-.buttons__explore{
+
+.buttons__explore {
     border: none;
     font-family: Inter, serif;
     font-weight: 600;
@@ -154,7 +165,8 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
 }
-.buttons__signup{
+
+.buttons__signup {
     font-family: Inter, serif;
     font-weight: 600;
     font-size: 14px;
@@ -164,96 +176,112 @@ body {
     border-radius: 8px;
     border: 1px solid #000000;
 }
+
 /*==================================*/
-.revolutionize{
+.revolutionize {
     margin-top: 80px;
     background: #F9F8FE;
 }
-.revolutionize__container{
+
+.revolutionize__container {
     display: flex;
     justify-content: space-between;
     padding: 112px 0;
 }
-.revolutionize__content{
+
+.revolutionize__content {
     max-width: 599px;
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
-.revolutionize__text{
+
+.revolutionize__text {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.text__typography{
+
+.text__typography {
     font-family: Poppins, serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
     color: #000000;
 }
-.text__title{
+
+.text__title {
     font-family: Montserrat, serif;
     font-weight: 700;
     font-size: 52px;
     line-height: 128%;
     color: #000000;
 }
-.text__description{
+
+.text__description {
     font-family: Poppins, serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: #000000;
 }
-.revolutionize__info{
+
+.revolutionize__info {
     display: flex;
     gap: 24px;
 }
-.revolutionize__explore{
+
+.revolutionize__explore {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.explore__title{
+
+.explore__title {
     font-family: Poppins, serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 160%;
     color: #000000;
 }
-.explore__subtitle{
+
+.explore__subtitle {
     font-family: Poppins, serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #000000;
 }
-.revolutionize__inspire{
+
+.revolutionize__inspire {
     max-width: 290px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.inspire__title{
+
+.inspire__title {
     font-family: Poppins, serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 160%;
     color: #000000;
 }
-.inspire__subtitle{
+
+.inspire__subtitle {
     font-family: Poppins, serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #000000;
 }
-.revolutionize__buttons{
+
+.revolutionize__buttons {
     display: flex;
     gap: 16px;
 }
-.buttons__learn{
+
+.buttons__learn {
     padding: 12px 24px;
     font-family: Inter, serif;
     font-weight: 600;
@@ -262,7 +290,8 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
 }
-.buttons__signUp{
+
+.buttons__signUp {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -271,14 +300,97 @@ body {
     font-size: 14px;
     color: #000000;
 }
-.buttons__signUp div{
+
+.buttons__signUp div {
     width: 7px;
     height: 7px;
     border-top: 2px solid #000000;
     border-right: 2px solid #000000;
     rotate: 45deg;
 }
-.revolutionize__image{
+
+.revolutionize__image {
     max-width: 601px;
     max-height: 601px;
 }
+
+/*==================================*/
+.discover {
+    margin: 108px 0;
+}
+
+.discover__container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.discover__content {
+    max-width: 848px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.discover__text {
+    font-family: Poppins, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.discover__info {
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    color: #000000;
+}
+
+.discover__description {
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.discover__cards {
+    display: flex;
+    gap: 48px;
+}
+
+.discover__card {
+    max-width: 395px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.card__img {
+
+}
+
+.card__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.card__description {
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.discover__buttons {
+    display: flex;
+    gap: 16px;
+}
+/*==================================*/
