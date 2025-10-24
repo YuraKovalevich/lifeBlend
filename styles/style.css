@@ -446,16 +446,19 @@ body {
     display: flex;
     gap: 16px;
 }
+
 /*==================================*/
-.lifeblend{
+.lifeblend {
     margin: 94px 0;
 }
-.lifeblend__container{
+
+.lifeblend__container {
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
-.lifeblend__title{
+
+.lifeblend__title {
     text-align: center;
     font-family: Montserrat, serif;
     font-weight: 700;
@@ -463,21 +466,25 @@ body {
     line-height: 128%;
     color: #000000;
 }
-.lifeblend__cards{
+
+.lifeblend__cards {
     display: flex;
     gap: 48px;
 }
-.lifeblend__card{
+
+.lifeblend__card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
-.card__image{
+
+.card__image {
 
 }
-.card__title{
+
+.card__title {
     text-align: center;
     font-family: Poppins, serif;
     font-weight: 700;
@@ -485,12 +492,88 @@ body {
     line-height: 160%;
     color: #000000;
 }
-.card__description{
+
+.card__description {
     text-align: center;
     font-family: Poppins, serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #000000;
+}
+
+/*==================================*/
+.impact {
+    background: #F9F8FE;
+    padding: 112px 0;
+}
+
+.impact__container {
+    display: flex;
+    gap: 80px;
+}
+
+.impact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.impact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.impact__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.impact__title {
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 128%;
+    color: #000000;
+}
+
+.impact__description {
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.impact__blocks {
+    display: flex;
+    gap: 16px;
+}
+
+.impact__block {
+    max-width: 292px;
+}
+
+.block__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.block__description {
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.impact__buttons {
+    display: flex;
+    gap: 16px;
 }
 /*==================================*/
