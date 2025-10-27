@@ -126,9 +126,6 @@ body {
 
 .healthy__title {
     max-width: 400px;
-}
-
-.healthy__title p {
     font-family: Montserrat, serif;
     font-weight: 700;
     font-size: 52px;
