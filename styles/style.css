@@ -449,6 +449,7 @@ body {
 .lifeblend__cards {
     display: flex;
     gap: 48px;
+    align-items: start;
 }
 
 .lifeblend__card {
