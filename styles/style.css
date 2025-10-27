@@ -576,4 +576,62 @@ body {
     display: flex;
     gap: 16px;
 }
+
 /*==================================*/
+.updates {
+    margin: 109px 0;
+}
+
+.updates__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.updates__title {
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    color: #000000;
+}
+
+.updates__description {
+    text-align: center;
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.updates__buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.updates__search {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 12px 120px 12px 16px;
+}
+
+.updates__subtitle {
+    margin-top: 16px;
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    color: #676767;
+}
+/*==================================*/
+
