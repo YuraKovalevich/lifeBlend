@@ -1,7 +1,7 @@
 # LifeBlend 
 Modern lifestyle platform website focused on health, wellness, and personal development.
 
-# LifeBlend Link: https://melodious-basbousa-8f3a0f.netlify.app/
+# LifeBlend Link: https://lifeblend.netlify.app/
 
 ## TASK
 Link to the document: https://www.figma.com/design/FXH4IrR8Vho44BpcloBNfc/DEMO-for-Dima-Bukovsky?node-id=0-1&p=f&t=jGPiJJtfcvGoXCoB-0
