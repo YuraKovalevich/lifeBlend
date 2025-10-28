@@ -7,10 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
@@ -20,6 +18,12 @@
     <header class="header">
         <div class="header__content">
             <nav class="header__menu">
+                <input type="checkbox" id="burger-toggle" class="burger-toggle">
+                <label for="burger-toggle" class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
                 <ul class="menu__list">
                     <li class="menu__item">
                         <a href="#" class="menu__link">Discover LifeBlend</a>
@@ -217,7 +221,7 @@
                 <div class="updates__buttons">
                     <label for="email-updates" class="visually-hidden">Enter your email</label>
                     <input id="email-updates" class="updates__search" type="email" placeholder="Enter your email">
-                    <button type="submit" class="buttons__explore btn">Sign Up</button>
+                    <button type="submit" class="buttons__sign btn">Sign Up</button>
                 </div>
                 <p class="updates__subtitle">By clicking Sign Up, you agree to our Terms and Conditions.</p>
             </div>
@@ -271,9 +275,10 @@
                 <div class="footer__search">
                     <label for="email-footer" class="visually-hidden">Your email</label>
                     <input id="email-footer" type="email" placeholder="Your email">
-                    <button type="submit" class="buttons__explore btn">Subscribe</button>
-                    <p class="footer__substring">By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.</p>
+                    <button type="submit" class="buttons__subscribe btn">Subscribe</button>
                 </div>
+                <p class="footer__substring">By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.</p>
+
             </div>
             <div class="footer__columns">
                 <div class="footer__column">
